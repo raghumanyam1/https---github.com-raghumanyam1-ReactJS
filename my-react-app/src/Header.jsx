@@ -1,8 +1,10 @@
 function Header() {
 
     return(
-        <header>
-            <h1>my website</h1>
+        
+         <header className="header">
+            <h2 className="h2">Login</h2>
+            <h1 className="h1">My Website</h1>
             <nav>
                 <ul>
                     <li><a href="#">home</a></li>
