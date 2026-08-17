@@ -5,10 +5,14 @@ import './App1.css'
 //import App from './App1.jsx'
 //import App from './Appevent.jsx'
 //import App from './Appstate.jsx'
-import App from './Appform.jsx'
+//import App from './Appform.jsx'
+//import App from './Hookexample.jsx'
+//import App from './Usestatewithstring.jsx'
+//import App from './Useststeinput.jsx'
+import App from './Useeffect.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-  </StrictMode>,
-)
+  </StrictMode>
+);

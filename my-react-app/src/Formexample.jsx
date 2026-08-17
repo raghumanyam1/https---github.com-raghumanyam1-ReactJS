@@ -1,12 +1,12 @@
-import { userState} from "react";
+import { useState} from "react";
  
-function FromExample() {
+function FormExample() {
     const [name, setName] = useState("");
 
     function handleSubmit(event) {
         event.preventDefault();
 
-        alert("Hello" + name);
+        alert("Hello " + name);
     }
 
     return (
@@ -19,10 +19,11 @@ function FromExample() {
                 <input
                 type="text"
                 value={name}
-                onChange={(event) => setName(event.target.value)} />
+                onChange={(event) => setName(event.target.value)} 
+                />
  
                 <button type="submit">
-                    submit
+                    Submit
                 </button>
 
         
